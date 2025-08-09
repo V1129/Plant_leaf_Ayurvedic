@@ -44,7 +44,7 @@ fscore = []
 global X_train, X_test, y_train, y_test
 global cnn
 
-labels = ['Aloevera', 'Curry','Guava','Hibiscus','Lemon', 'Mango','Neem', 'Tulsi']
+labels = ['Aloevera', 'Curry','Guava']
 uses = ['Healing wounds,Detoxifier', 'improves digestion , treats anemia','treat diarrhea, improves immunity','healthy hair,heart disease','boost immunity,balance body PH', 'manage diabetes, improve digestion','antibacterial, antifungal', 'immunity booster,respiratory disorders']
 
 
@@ -416,3 +416,4 @@ predictButton.config(font=font1)
 
 main.config(bg='LightSkyBlue')
 main.mainloop()
+
